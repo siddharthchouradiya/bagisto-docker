@@ -165,7 +165,7 @@ Check running docker containers as:
 
 ```
 
-APP_URL=http://localhost
+APP_URL=enter your url (http://your-domain-name)
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
