@@ -165,13 +165,13 @@ Check running docker containers as:
 
 ```
 
-APP_URL=
-DB_CONNECTION=
+APP_URL=enter your url (http://your-domain-name)
+DB_CONNECTION=mysql
 DB_HOST=mysql
-DB_PORT=
-DB_DATABASE=
-DB_USERNAME=
-DB_PASSWORD=
+DB_PORT=3306
+DB_DATABASE=enter database name as you mentioned in docker-compose.yml file
+DB_USERNAME=enter database username as you mentioned in docker-compose.yml file
+DB_PASSWORD=enter database password as you mentioned in docker-compose.yml file
 
 
 ```
