@@ -193,7 +193,8 @@ DB_PASSWORD=enter database password as you mentioned in docker-compose.yml file
 
 > Apache documentroot is `/var/www/html/public_html`. As `app` directory on host is mapped with `html` directory inside container, we will create a symlink of `bagisto/public` in `app` directory to `/var/www/html/public_html`.
 
-> `cd app; ln -snf bagisto/public public_html`
+> `cd app` 
+> `ln -snf bagisto/public public_html`
 
 
 
